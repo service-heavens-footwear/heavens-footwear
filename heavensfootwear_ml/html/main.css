@@ -1,0 +1,223 @@
+html {
+    background-color: #5bb1b1;
+    line-height: 2;
+}
+
+body {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    display: inline-block;
+    padding: 0;
+    padding-right: 24px;
+    padding-left: 12px;
+    margin: 0;
+    align-content: center;
+}
+
+.navbar-nav {
+    font-family: 'Open Sans Semibold', sans-serif;
+    align-content: center;
+    margin-left: 20px;
+}
+
+a:link, a:visited {
+    border-radius: 5px;
+    color:#00193f;
+    padding: 20px 30px;
+    text-align: center;
+    display: inline;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #8ddada
+}
+
+a:active {
+    background-color: #5bb1b1;
+    padding: 20px 30px;
+    text-align: center;
+    margin-left: 30px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #5bb1b1;
+    align-content: stretch;
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 38px;
+    color: #00193f;
+}
+
+p {
+    font-family: 'Open Sans Light', 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #00193f;
+    text-align: center;
+    align-content: center;
+}
+
+h1 {
+    font-family: 'Lobster', 'Lobster Two';
+    font-size: 86px;
+    color: #00193f;
+    padding-top: 256px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin: 0;
+    margin-top: 8px;
+}
+
+h4 {
+    font-family: 'Lobster Two','Open Sans', sans-serif;
+    font-size: 34px;
+    letter-spacing: 1.5px;
+    color: #00193f;
+    padding-top: 0px;
+    padding-bottom: 280px;
+    text-align: center;
+    margin-top: 0;
+}   
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    color: #00193f;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.heavensfootwear {
+    background-image: url("C:/Users/Carmen%20Chu/Desktop/heavensfootwear_ml/HTML/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+ 
+#product {
+    padding: 20px 40px;
+    background-color: #8ddada;
+    margin: 35px;
+    margin-top: 70px;
+    text-align: center;
+    display: block;
+}
+
+#inventors {
+    font-family: 'Open Sans', sans-serif;
+    color: #00193f;
+    background-color: #8ddada;
+    margin: 35px;
+    margin-top: 70px;
+    padding-top: 5px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#company {
+    font-family: 'Open Sans', sans-serif;
+    color: #00193f;
+    background-color: #8ddada;
+    margin: 35px;
+    margin-top: 70px;
+    padding-top: 5px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#survey {
+    background-color: #8ddada;
+    margin: 35px;
+    margin-top: 70px;
+    padding:  20px 40px;
+    padding-right: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+#contact {    
+    background-color: #8ddada;
+    margin: 35px;
+    margin-top: 70px;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.container {
+    padding:  20px 40px;
+    text-align: center;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99; 
+    border: none;
+    outline: none;
+    color: #00193f;
+    background-color: #5bb1b1;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: 'Josefin Sans', 'Open Sans', sans-serif;
+    opacity: 0.9;
+}
+
+#myBtn:hover {
+    background-color: #3f6399;
+}
+
+#GNU_License a:hover, a:active {
+    padding: 0;
+    margin: 0;
+}
+
+#GNU_License a:link, a:visited {
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    color: #00193f;
+    display: block;
+    border-color: #00193f;
+    opacity: 0.5;
+    margin-top: 60px;
+}
+
+.copyright 
+    p {
+        font-size: 16px;
+        color: #224747;
+        text-align: center;
+        align-content: center;
+    }
