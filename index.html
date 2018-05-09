@@ -32,41 +32,40 @@
             <h4>Giving Soles to the World</h4>
         </div>
         
-        <div class="mySlideshow" style="align-content: center;">
-                    <img class="mySlides" src="http://heavensfootwear.ml/shoe1.png">
-                    <img class="mySlides" src="http://heavensfootwear.ml/shoe2.png">
-                    <img class="mySlides" src="http://heavensfootwear.ml/shoe3.png">
-                    <img class="mySlides" src="http://heavensfootwear.ml/shoe4.png">
-                    <img class="mySlides" src="http://heavensfootwear.ml/shoe5.png">
-                    <img class="mySlides" src="http://heavensfootwear.ml/">
-                    <img class="mySlides" src="http://heavensfootwear.ml/">
-                    <img class="mySlides" src="http://heavensfootwear.ml/">
-                    <img class="mySlides" src="http://heavensfootwear.ml/">
-                <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-            <script>
-            var slideIndex = 1;
-            showDivs(slideIndex);
-            
-            function plusDivs(n) {
-                showDivs(slideIndex += n);
-            }
-            
-            function showDivs(n) {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                if (n > x.length) {slideIndex = 1} 
-                if (n < 1) {slideIndex = x.length} ;
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none"; 
-                }
-                x[slideIndex-1].style.display = "block"; 
-            }
-            </script>
-        </div>
-
         <div class="container" id="product"> 
             <h2>Our Product: <em>Detachable Shoe Souls</em></h2>
+            <div class="mySlideshow">
+                        <img class="mySlides" src="http://heavensfootwear.ml/shoe1.png">
+                        <img class="mySlides" src="http://heavensfootwear.ml/shoe2.png">
+                        <img class="mySlides" src="http://heavensfootwear.ml/shoe3.png">
+                        <img class="mySlides" src="http://heavensfootwear.ml/shoe4.png">
+                        <img class="mySlides" src="http://heavensfootwear.ml/shoe5.png">
+                        <img class="mySlides" src="http://heavensfootwear.ml/">
+                        <img class="mySlides" src="http://heavensfootwear.ml/">
+                        <img class="mySlides" src="http://heavensfootwear.ml/">
+                        <img class="mySlides" src="http://heavensfootwear.ml/">
+                    <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+                <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+                
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+                
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {slideIndex = 1} 
+                    if (n < 1) {slideIndex = x.length} ;
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none"; 
+                    }
+                    x[slideIndex-1].style.display = "block"; 
+                }
+                </script>
+            </div>
                 <h3>About The Product</h3>
                     <p><em>Detachable Shoe Souls</em> are shoes with detachable soles. The soles come in a variety of 
                     types, like hiking shoe soles, running shoe soles, training shoe soles, soccer 
