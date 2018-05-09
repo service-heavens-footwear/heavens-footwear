@@ -116,9 +116,9 @@ h3 {
     margin: 0;
 }
 
-.mySlideshow 
-    .mySlides {
-        align-content: center;
+.mySlideshow
+    button {
+        color: #8ddada;
     }
 
 #product {
