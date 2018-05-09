@@ -115,7 +115,12 @@ h3 {
     background-size: cover;
     margin: 0;
 }
- 
+
+.mySlideshow 
+    .mySlides {
+        align-content: center;
+    }
+
 #product {
     padding: 20px 40px;
     background-color: #8ddada;
