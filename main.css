@@ -120,8 +120,8 @@ h3 {
 
 }
 
-.w3-button {
-    color: #8ddada;
+button {
+    border: none;
 }
 
 #product {
