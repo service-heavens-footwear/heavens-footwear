@@ -116,10 +116,13 @@ h3 {
     margin: 0;
 }
 
-.mySlideshow
-    button {
-        color: #8ddada;
-    }
+.mySlideshow {
+
+}
+
+.w3-button {
+    color: #8ddada;
+}
 
 #product {
     padding: 20px 40px;
