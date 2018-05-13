@@ -33,46 +33,72 @@
             <h4>Giving Soles to the World</h4>
         </div>
         
+        <script>
+            var slideIndex = [1,1];
+            var slideId = ["mySlides1", "mySlides2"] 
+            showSlides(1, 0);
+            showSlides(1, 1);
+
+            function plusSlides(n, no) {
+                showSlides(slideIndex[no] += n, no);
+            }
+
+            function showSlides(n, no) {
+                var i;
+                var x = document.getElementsByClassName(slideId[no]);
+                if (n > x.length) {slideIndex[no] = 1} 
+                if (n < 1) {slideIndex[no] = x.length}
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none"; 
+                }
+                x[slideIndex[no]-1].style.display = "block"; 
+            }
+        </script>
+
         <div class="container" id="product"> 
             <h2>Our Product: <em>Detachable Shoe Souls</em></h2>
                    <!--Slideshow-->
                    <div class="slideshow-container">
 
-                        <div class="mySlides fade">
+                        <div class="mySlides1 fade">
                             <div class="numbertext">1 / 7</div>
                             <img src="shoe1.png" style="width:100%">
                         </div>
     
-                        <div class="mySlides fade">
+                        <div class="mySlides1 fade">
                             <div class="numbertext">2 / 7</div>
                             <img src="shoe2.png" style="width:100%">
                         </div>
     
-                        <div class="mySlides fade">
+                        <div class="mySlides1 fade">
                             <div class="numbertext">3 / 7</div>
                             <img src="shoe3.png" style="width:100%">
                         </div>
     
-                        <div class="mySlides fade">
+                        <div class="mySlides1 fade">
                             <div class="numbertext">4 / 7</div>
                             <img src="shoe4.png" style="width:100%">
                         </div>
     
-                        <div class="mySlides fade">
+                        <div class="mySlides1 fade">
                             <div class="numbertext">5 / 7</div>
                             <img src="shoe5.png" style="width:100%">
                         </div>
     
-                        <div class="mySlides fade">
+                        <div class="mySlides1 fade">
                             <div class="numbertext">6 / 7</div>
                             <img src="shoe6.png" style="width:100%">
                         </div>
-    
-                        <div class="mySlides fade">
-                            <div class="numbertext">7 / 7</div>
-                            <img src="shoe7.png" style="width:100%">
-                        </div>
 
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+
+                    <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span> 
+                            <span class="dot" onclick="currentSlide(2)"></span> 
+                            <span class="dot" onclick="currentSlide(3)"></span> 
                     </div>
 
                 <h3>About The Product</h3>
@@ -83,12 +109,52 @@
                     <!--Slideshow 2: How It Works-->
                     <div class="slideshow-container">
 
-                        <div class="mySlides fade">
-                            <div class="numbertext"></div>
-                            <img src="" style="width:100%">
+                        <div class="mySlides2 fade">
+                            <div class="numbertext">1 / </div>
+                            <img src="willy1.png" style="width:100%">
                         </div>
                         
+                        <div class="mySlides2 fade">
+                                <div class="numbertext">1 / </div>
+                                <img src="willy2.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides2 fade">
+                                <div class="numbertext">1 / </div>
+                                <img src="willy3.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides2 fade">
+                                <div class="numbertext">1 / </div>
+                                <img src="willy4.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides2 fade">
+                                <div class="numbertext">1 / </div>
+                                <img src="willy5.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides2 fade">
+                                <div class="numbertext">1 / </div>
+                                <img src="willy6.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides2 fade">
+                                <div class="numbertext">1 / </div>
+                                <img src="willy7.png" style="width:100%">
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
                     </div>
+                    <br>
+
+                    <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span> 
+                            <span class="dot" onclick="currentSlide(2)"></span> 
+                            <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+
                 <h3>How Does It Work?</h3>
                         <p><em>Detachable Shoe Souls</em> are designed with zippers attaching the sole and body. Each sole can be easily unzipped, taken out and replaced, or zipped with the body. For example, if you have baseball practice right after track and field, you only need to bring <strong>one</strong> pair of shoes, plus a pair of soles. Much more portable than <strong>two</strong> pairs of shoes!</p>
         </div>
