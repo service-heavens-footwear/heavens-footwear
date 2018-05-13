@@ -13,6 +13,7 @@
     </head>
 
     <body>
+        <!--Navigation Bar-->
         <header>
             <nav>
                 <div class="navbar-nav">
@@ -34,64 +35,60 @@
         
         <div class="container" id="product"> 
             <h2>Our Product: <em>Detachable Shoe Souls</em></h2>
-                <div class="mySlideshow">
-                            <img class="w3-display-container mySlides w3-animate-opacity" style="display: block;" src="http://heavensfootwear.ml/shoe1.png">
-                            <img class="w3-display-container mySlides w3-animate-opacity" style="display: block;" src="http://heavensfootwear.ml/shoe2.png">
-                            <img class="w3-display-container mySlides w3-animate-opacity" style="display: block;" src="http://heavensfootwear.ml/shoe3.png">
-                            <img class="w3-display-container mySlides w3-animate-opacity" style="display: block;" src="http://heavensfootwear.ml/shoe4.png">
-                            <img class="w3-display-container mySlides w3-animate-opacity" style="display: block;" src="http://heavensfootwear.ml/shoe5.png">
-                            <img class="w3-display-container mySlides w3-animate-opacity" style="display: block;" src="http://heavensfootwear.ml/shoe6.png">
-                            <img class="w3-display-container mySlides w3-animate-opacity" style="display: block;" src="http://heavensfootwear.ml/shoe7.png">
-                        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-                    <script>
-                    var slideIndex = 1;
-                    showDivs(slideIndex);
-                    
-                    function plusDivs(n) {
-                        showDivs(slideIndex += n);
-                    }
-                    
-                    function showDivs(n) {
-                        var i;
-                        var x = document.getElementsByClassName("mySlides");
-                        if (n > x.length) {slideIndex = 1} 
-                        if (n < 1) {slideIndex = x.length} ;
-                        for (i = 0; i < x.length; i++) {
-                            x[i].style.display = "none"; 
-                        }
-                        x[slideIndex-1].style.display = "block"; 
-                    }
-                    </script>
-                </div>
+                   <!--Slideshow-->
+                   <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 7</div>
+                            <img src="shoe1.png" style="width:100%">
+                        </div>
+    
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 7</div>
+                            <img src="shoe2.png" style="width:100%">
+                        </div>
+    
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 7</div>
+                            <img src="shoe3.png" style="width:100%">
+                        </div>
+    
+                        <div class="mySlides fade">
+                            <div class="numbertext">4 / 7</div>
+                            <img src="shoe4.png" style="width:100%">
+                        </div>
+    
+                        <div class="mySlides fade">
+                            <div class="numbertext">5 / 7</div>
+                            <img src="shoe5.png" style="width:100%">
+                        </div>
+    
+                        <div class="mySlides fade">
+                            <div class="numbertext">6 / 7</div>
+                            <img src="shoe6.png" style="width:100%">
+                        </div>
+    
+                        <div class="mySlides fade">
+                            <div class="numbertext">7 / 7</div>
+                            <img src="shoe7.png" style="width:100%">
+                        </div>
+
+                    </div>
+
                 <h3>About The Product</h3>
                     <p><em>Detachable Shoe Souls</em> are shoes with detachable soles. The soles come in a variety of 
                     types, like hiking shoe soles, running shoe soles, training shoe soles, soccer 
                     cleat soles, baseball cleat soles, and more, making them extremely versatile. We designed this product for all ages and they are also unisex. If you are an athlete or a traveller, these shoes are 
                     a must-have.</p>
-                <div class="mySlideshow">
-                        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-                    <script>
-                    var slideIndex = 1;
-                    showDivs(slideIndex);
-                    
-                    function plusDivs(n) {
-                        showDivs(slideIndex += n);
-                    }
-                    
-                    function showDivs(n) {
-                        var i;
-                        var x = document.getElementsByClassName("mySlides");
-                        if (n > x.length) {slideIndex = 1} 
-                        if (n < 1) {slideIndex = x.length} ;
-                        for (i = 0; i < x.length; i++) {
-                            x[i].style.display = "none"; 
-                        }
-                        x[slideIndex-1].style.display = "block"; 
-                    }
-                    </script>
-                </div>
+                    <!--Slideshow 2: How It Works-->
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <div class="numbertext"></div>
+                            <img src="" style="width:100%">
+                        </div>
+                        
+                    </div>
                 <h3>How Does It Work?</h3>
                         <p><em>Detachable Shoe Souls</em> are designed with zippers attaching the sole and body. Each sole can be easily unzipped, taken out and replaced, or zipped with the body. For example, if you have baseball practice right after track and field, you only need to bring <strong>one</strong> pair of shoes, plus a pair of soles. Much more portable than <strong>two</strong> pairs of shoes!</p>
         </div>
