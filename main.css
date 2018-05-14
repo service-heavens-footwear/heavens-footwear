@@ -152,6 +152,7 @@ h3 {
 .numbertext {
     color: #f2f2f2;
     font-size: 12px;
+    font-family: 'Open Sans Light', 'Open Sans', sans-serif;
     padding: 8px 12px;
     position: absolute;
     top: 0;
