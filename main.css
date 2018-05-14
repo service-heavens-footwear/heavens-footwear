@@ -119,6 +119,11 @@ h3 {
     clip: rect(48px, 0, 48px, 0);
 }
 
+img.shoe {
+    display: block;
+    clip: rect(48px, 0, 48px, 0);
+}
+
 .mySlides1, .mySlides2 {
     display: none;
 }
