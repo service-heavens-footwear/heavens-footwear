@@ -149,7 +149,8 @@ h3 {
 }
 
 .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: #5bb1b1;
+    opacity: 0.8;
 }  
 
 .fade {
