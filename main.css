@@ -122,6 +122,8 @@ h3 {
 .shoe {
     display: block;
     clip: rect(48px, 0, 48px, 0);
+    padding: 512px 288px;
+    mask-clip: padding-box;
 }
 
 .mySlides1, .mySlides2 {
