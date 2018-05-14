@@ -115,14 +115,12 @@ h3 {
 /*BEGINNING OF SLIDESHOW STUFF*/
 
 .slideshow-container {
-    height: 576px;
-    width: 800px;
+    display: block;
+    clip: rect(48px, 0, 48px, 0);
 }
 
 .mySlides1, .mySlides2 {
     display: none;
-    height: 576px;
-    width: 800px;
 }
 
 .prev, .next {
