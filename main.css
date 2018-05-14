@@ -115,17 +115,12 @@ h3 {
 /*BEGINNING OF SLIDESHOW STUFF*/
 
 .slideshow-container {
-    clip: rect(48px, 0, 48px, 0);
-}
 
-.shoe {
-    clip: rect(48px, 0, 48px, 0);
-    padding: 512px 288px;
-    mask-clip: padding-box;
 }
 
 .mySlides1, .mySlides2 {
     display: none;
+    clip: rect(48px, 0, 48px, ,0)
 }
 
 .prev, .next {
