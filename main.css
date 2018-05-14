@@ -117,6 +117,7 @@ h3 {
 .slideshow-container {
     height: 384px;
     width: 512px;
+    position: relative;
     margin: auto;
 }
 
