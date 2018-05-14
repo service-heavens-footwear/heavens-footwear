@@ -129,7 +129,6 @@ h3 {
 .prev, .next {
     cursor: pointer;
     top: 50%;
-    position: fixed;
     width: auto;
     margin-top: -22px;
     padding: 16px;
