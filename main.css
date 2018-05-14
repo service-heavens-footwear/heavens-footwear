@@ -116,7 +116,7 @@ h3 {
     margin: auto;
 }
 
-.mySlides {
+.mySlides1, .mySlides2 {
     display: none;
 }
 
