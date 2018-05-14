@@ -116,7 +116,7 @@ h3 {
 
 .slideshow-container {
     height: 256px;
-    width: 342px;
+    width: 512px;
     position: relative;
     margin: auto;
 }
@@ -152,15 +152,6 @@ h3 {
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }  
-
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    font: 'Open Sans', sans-serif;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
 
 .dot {
     cursor: pointer;
