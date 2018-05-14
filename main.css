@@ -120,7 +120,7 @@ h3 {
 
 .shoe {
     clip: rect(48px, 0, 48px, 0);
-    padding: width="512px" height="288px";
+    padding: 512px 288px;
     mask-clip: padding-box;
 }
 
