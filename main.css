@@ -115,12 +115,10 @@ h3 {
 /*BEGINNING OF SLIDESHOW STUFF*/
 
 .slideshow-container {
-    display: block;
     clip: rect(48px, 0, 48px, 0);
 }
 
 .shoe {
-    display: block;
     clip: rect(48px, 0, 48px, 0);
     padding: width="512px" height="288px";
     mask-clip: padding-box;
