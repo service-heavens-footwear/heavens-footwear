@@ -116,14 +116,14 @@ h3 {
 
 .slideshow-container {
     height: 576px;
-    width: 1024px, 100%;
+    width: 1000px;
     margin: auto;
 }
 
 .mySlides1, .mySlides2 {
     display: none;
     height: 576px;
-    width: 1024px, 100%;
+    width: 1000px;
 }
 
 .prev, .next {
