@@ -129,6 +129,7 @@ h3 {
 .prev, .next {
     cursor: pointer;
     position: absolute;
+    display: inline-block;
     top: 50%;
     width: auto;
     margin-top: -22px;
