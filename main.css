@@ -133,16 +133,17 @@ h3 {
     color: #00193f;
     font-weight: bold;
     font-size: 18px;
-    transition: 0.6s ease;
+    transition: background-color 0.6s ease;
+    display: inline-block;
 }
 
 .next {
-    right: 0;
+    right: 100%;
     border-radius: 3px;
 }
 
 .prev {
-    left: 0;
+    left: 100%;
     border-radius: 3px;
 }
 
